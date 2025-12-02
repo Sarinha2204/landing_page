@@ -65,22 +65,22 @@
 }
 
 .img{
-    height: 500px;
+    height: 400px;
     width: 100%
 }
 
 .titulo{
-    position: absolute; /* Permite posicionar o texto em relação ao contêiner */
-    top: 30%; /* Posiciona o topo do texto no centro vertical */
+    position: absolute;
+    top: 30%; 
     right: 70%;
-    color: white;/* Cor de fundo semi-transparente para o texto */
+    color: white;
     padding: 10px;
 }
 
 .titulo2{
-    position: absolute; /* Permite posicionar o texto em relação ao contêiner */
-    top: 35%; /* Posiciona o topo do texto no centro vertical */
-    left: 10.4%;
-    color: white;/* Cor de fundo semi-transparente para o texto */
+    position: absolute; 
+    top: 35%; 
+    right: 70%;
+    color: white;
     padding: 10px;
 }
