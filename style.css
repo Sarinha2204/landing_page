@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.div_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: default;
+}
+
+.imagem {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-item {
+    cursor: pointer;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+/* Hover */
+.nav-item:hover {
+    color: #b88d00;
+}
+
+
+
+/* Botão amarelo grande */
+.btn-yellow {
+    background-color: #f4c542;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-yellow:hover {
+    background-color: #e4b834;
+}
+
+.img{
+    height: 500px;
+    width: 100%
+}
+
+.titulo{
+    position: absolute; /* Permite posicionar o texto em relação ao contêiner */
+    top: 30%; /* Posiciona o topo do texto no centro vertical */
+    right: 70%;
+    color: white;/* Cor de fundo semi-transparente para o texto */
+    padding: 10px;
+}
+
+.titulo2{
+    position: absolute; /* Permite posicionar o texto em relação ao contêiner */
+    top: 35%; /* Posiciona o topo do texto no centro vertical */
+    left: 10.4%;
+    color: white;/* Cor de fundo semi-transparente para o texto */
+    padding: 10px;
+}
