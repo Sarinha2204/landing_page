@@ -1,39 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <title>SolarBeam</title>
+    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-    <nav class="navbar">
-      <div class="div_navbar">
 
-        <a class="navbar-brand">
-          <img src="logo.jpg" alt="Logo" class="imagem">
-          SolarBeam
-        </a>
+  <nav class="navbar">
+    <div class="div_navbar">
+      <a href="#" class="navbar_brand">
+        <img src="logo.jpg" alt="Logo" class="imagem">
+        SolarBeam
+      </a>
 
-        <div class="navbar-links">
-          <a class="nav-item">Início</a>
-          <a class="nav-item">Anúncios</a>
-          <a class="nav-item">Orçamentos</a>
-          <a class="nav-item">Sobre</a>
-          <a class="nav-item">Contato</a>
-          <a class="btn-yellow">Solicitar Orçamento Grátis</a>
-        </div>
-
+      <div class="navbar-links">
+        <button class="nav-item">Início</button>
+        <button class="nav-item">Anúncios</button>
+        <button class="nav-item">Orçamentos</button>
+        <button class="nav-item">Sobre</button>
+        <button class="nav-item">Contato</button>
+        <button class="btn-yellow">Solicitar Orçamento Grátis</button>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <div>
-      <img src="imagem_placasolar.png" class="img">
-      <h1 class="titulo">Energia SolarBeam: </h1><br>
-      <h1 class="titulo2">Economize até 90% na sua conta!</h1>
-      <h5></h5>
+  <div class="hero-section">
+    <img src="imagem_placasolar.png" class="img-bg" alt="Casa com painéis solares">
+    
+    <div class="hero-content">
+      <h1>Energia SolarBeam:<br>Economize até 90%<br>na sua conta!</h1>
+      <h5>Soluções personalizadas para residências e empresas. Anúncios imperdíveis e orçamentos rápidos.</h5>
+      <button class="btn-yellow btn-hero">Ver Anúncios de Instalação</button>
+    </div>
+  </div><br><br>
+
+
+  <h2 class="titulo4">Anúncios Recentes de Instalação</h2><br><br>
+  <div class="anuncios">
+    
+    <div class="card" style="width: 18rem;">
+      <img src="foto_card.jpeg" class="card-img" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Kit Residencial Premium</h5>
+        <p class="card-text">Instalação em 5 dias - A partir de R$15.000</p>
+        <a href="#" class="btn-yellow">Solicitar Detalhes</a>
+      </div>
     </div>
 
+    <div class="card" style="width: 18rem;">
+      <img src="foto_card.jpeg" class="card-img" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Kit Residencial Premium</h5>
+        <p class="card-text">Instalação em 5 dias - A partir de R$15.000</p>
+        <a href="#" class="btn-yellow">Solicitar Detalhes</a>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="foto_card.jpeg" class="card-img" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Kit Residencial Premium</h5>
+        <p class="card-text">Instalação em 5 dias - A partir de R$15.000</p>
+        <a href="#" class="btn-yellow">Solicitar Detalhes</a>
+      </div>
+    </div>
+  </div><br><br>
 
 </body>
 </html>
