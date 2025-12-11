@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>SolarBeam</title>
+    <link rel="stylesheet" href="style.css"> 
     <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
@@ -13,16 +16,16 @@
   <nav class="navbar">
     <div class="div_navbar">
       <a href="#" class="navbar_brand">
-        <img src="logo.jpg" alt="Logo" class="imagem">
+        <img src="logo2.png" alt="Logo" class="imagem">
         SolarBeam
       </a>
 
       <div class="navbar-links">
-        <button class="nav-item">Início</button>
-        <button class="nav-item">Anúncios</button>
-        <button class="nav-item">Orçamentos</button>
-        <button class="nav-item">Sobre</button>
-        <button class="nav-item">Contato</button>
+        <a href="#inicio" class="btn nav-item">Início</a>
+        <a href="#anuncios" class="btn nav-item">Anúncios</a>
+        <a href="#orcamentos" class="btn nav-item">Orçamentos</a>
+        <a href="#sobre" class="btn nav-item">Sobre</a>
+        <a href="#contato" class="btn nav-item">Contato</a>
         <button class="btn-yellow">Solicitar Orçamento Grátis</button>
       </div>
     </div>
@@ -31,69 +34,129 @@
   <div class="hero-section">
     <img src="imagem_placasolar.png" class="img-bg" alt="Casa com painéis solares">
     
-    <div class="hero-content">
+    <div class="hero-content" id="inicio">
       <h1>Energia SolarBeam:<br>Economize até 90%<br>na sua conta!</h1>
       <h5>Soluções personalizadas para residências e empresas. Anúncios imperdíveis e orçamentos rápidos.</h5>
       <button class="btn-yellow btn-hero">Ver Anúncios de Instalação</button>
     </div>
-  </div><br><br>
+  </div><br><br><br>
 
-
-  <h2 class="titulo4">Anúncios Recentes de Instalação</h2><br><br>
-
-<div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-
-    <div class="carousel-item active">
-      <div class="d-flex justify-content-center">
-        <div class="card" style="width: 18rem;">
-          <img src="foto_card.jpeg" class="card-img" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Kit Residencial Premium</h5>
-            <p class="card-text">Instalação em 5 dias - A partir de R$15.000</p>
-            <a href="#" class="btn-yellow">Solicitar Detalhes</a>
-          </div>
-        </div>
+  <h2 class="titulo" id="anuncios">Anúncios Recentes de Instalação</h2><br>
+  <div class="anuncios" >
+    
+    <div class="card" style="width: 18rem;">
+      <img src="foto_card.jpeg" class="card-img" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Kit Residencial Premium</h5>
+        <p class="card-text">Instalação em 5 dias - A partir de R$15.000</p>
+        <a href="#" class="btn btn-yellow">Solicitar Detalhes</a>
       </div>
     </div>
 
-    <div class="carousel-item">
-      <div class="d-flex justify-content-center">
-        <div class="card" style="width: 18rem;">
-          <img src="foto_card.jpeg" class="card-img" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Kit Empresarial Plus</h5>
-            <p class="card-text">Instalação em 7 dias - A partir de R$27.900</p>
-            <a href="#" class="btn-yellow">Solicitar Detalhes</a>
-          </div>
-        </div>
+    <div class="card" style="width: 18rem;">
+      <img src="bateria.jpg" class="card-img" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Promoção de Inverno</h5>
+        <p class="card-text">Kit Econômico + Bateria - R$9.499(Oferta Limitada)</p>
+        <a href="#" class="btn btn-yellow">Solicitar Detalhes</a>
       </div>
     </div>
 
-    <div class="carousel-item">
-      <div class="d-flex justify-content-center">
-        <div class="card" style="width: 18rem;">
-          <img src="foto_card.jpeg" class="card-img" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Kit Compacto Econômico</h5>
-            <p class="card-text">Instalação rápida - A partir de R$9.900</p>
-            <a href="#" class="btn-yellow">Solicitar Detalhes</a>
-          </div>
-        </div>
+    <div class="card" style="width: 18rem;">
+      <img src="industrial.jpg" class="card-img" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">SolarBeam Industrial</h5>
+        <p class="card-text">Financiamento em até 60x -  Consulte</p>
+        <a href="#" class="btn btn-yellow">Solicitar Detalhes</a>
       </div>
     </div>
+  </div><br><br><br>
 
+
+  <div id="orcamentos">
+    <h2 class="titulo">Como Funciona o Orçamento Gratuito</h2><br>
+    <div class="orcamento">
+      <div>
+        <img src="formulario.png" class="orcamento-item" alt="...">
+        <p class="texto"><b>1. Preencha o formulário com seus dados.</b></p>
+      </div>
+
+      <div>
+        <img src="dados.png" class="orcamento-item" alt="">
+        <p class="texto"><b>2. Receba Orçamentos Personalizadas.</b></p>
+      </div>
+
+      <div>
+        <img src="economizar.png" class="orcamento-item"  alt="">
+        <p class="texto"><b>3. Escolha e Economize.</b></p>
+      </div>
+    
+    </div>
+  </div><br><br><br>
+
+
+    <div class="motivos" id="sobre">
+      <div class="motivo">
+        <h4 class="titulo2">Perguntas Frequentes</h4>
+        <h2>SolarBeam tem Qualidade Garantida<br> para Residências e Industrias</h2>
+        <h2>FAQs: O Que Você Precisa Saber</h2>
+      </div>
+        <div class="perguntas">
+      <div class="faq-container">
+
+          <details class="faq-item">
+              <summary>Quais são os benefícios da energia solar?</summary>
+              <p>Redução significativa na conta de energia, sustentabilidade ambiental e valorização do imóvel.</p>
+          </details>
+
+          <details class="faq-item">
+              <summary>Quanto tempo leva para instalar um sistema solar?</summary>
+              <p>Normalmente entre 1 a 2 semanas, dependendo do tamanho do sistema e das condições do local.</p>
+          </details>
+
+          <details class="faq-item">
+              <summary>Qual é a vida útil dos painéis solares?</summary>
+              <p>Os painéis solares geralmente têm uma vida útil de 25 a 30 anos, com manutenção mínima.</p>
+          </details>
+
+          <details class="faq-item">
+              <summary>Posso financiar a instalação do sistema solar?</summary>
+              <p>Sim, oferecemos opções de financiamento flexíveis para facilitar o investimento.</p>
+          </details>
+
+      </div>
   </div>
 
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
+    </div>
+ 
+    <footer class="footer">
+    <div class="footer-container">
 
+        <div class="footer-column">
+            <h3>Contato</h3>
+            <p>📞 (41) 533619-6681</p>
+            <p>✉️ contato@solarbeam.com.br</p>
+            <p>📍 Rua Exemplo, 123 - Curitiba</p>
+        </div>
 
+        <div class="footer-column">
+            <h3>Breve de Uem Info</h3>
+            <p>Energia SolarBeam</p>
+            <p>Economia, Autonomia, Sustentabilidade</p>
+            <p>Sistemas Residenciais e Industriais</p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Social e Unite Link</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+
+    </div>
+</footer>
 
 
   
