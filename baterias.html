@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Orçamentos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="div_navbar">
+        <a href="index.html" class="navbar_brand">
+            <img src="logo2.png" class="imagem" alt="Logo">
+            SolarBeam | Baterias
+        </a>
+    </div>
+</nav>
+
+<div class="container mt-5 mb-5">
+    <p class="text-center mb-5">
+        Preencha o formulário abaixo e nossa equipe entrará em contato com você.
+    </p>
+
+    <form class="mx-auto" style="max-width: 500px;">
+        <div class="mb-3">
+            <label class="form-label">Nome Completo</label>
+            <input type="text" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Telefone</label>
+            <input type="tel" class="form-control" required>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Qual marca da bateria?</label>
+            <select class="form-select" required>
+                <option value="">Selecione</option>
+                <option>Aldo Solar</option>
+                <option>Sou Energy</option>
+                <option>Fotus Distribuidora Solar</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">CEP</label>
+            <input type="number" class="form-control" required>
+        </div>
+
+        <button type="submit" class="btn btn-yellow w-100">
+            Enviar Solicitação
+        </button>
+    </form>
+</div>
+
+<footer class="footer">
+    <p class="text-center mt-4 mb-4">
+        © 2025 SolarBeam – Todos os direitos reservados
+    </p>
+</footer>
+
+</body>
+</html>
